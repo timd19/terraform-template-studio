@@ -58,9 +58,9 @@ const Sidebar: React.FC<SidebarProps> = ({ className }) => {
   const location = useLocation();
 
   const navItems = [
-    { icon: <LayoutTemplate className="h-5 w-5" />, label: "Dashboard", href: "/" },
+    { icon: <LayoutTemplate className="h-5 w-5" />, label: "Dashboard", href: "/dashboard" },
     { icon: <ListTree className="h-5 w-5" />, label: "Templates", href: "/templates" },
-    { icon: <Download className="h-5 w-5" />, label: "Deployments", href: "/deployments" },
+    { icon: <Server className="h-5 w-5" />, label: "Deployments", href: "/deployments" },
     { icon: <Github className="h-5 w-5" />, label: "Git Repositories", href: "/repositories" },
     { icon: <Database className="h-5 w-5" />, label: "Resources", href: "/resources" },
     { icon: <Settings className="h-5 w-5" />, label: "Settings", href: "/settings" },
